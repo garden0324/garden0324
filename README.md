@@ -16,23 +16,17 @@
 
 ## 🧑🏻‍💻 About Me
 
-```python
-class JeongwonLim:
-    def __init__(self):
-        self.name      = "임정원 (Jeongwon Lim)"
-        self.role      = "AI / Backend / IoT Developer"
-        self.education = "중앙대학교 소프트웨어학부 (4학년)"
-        self.interests = ["Computer Vision", "Vector Search", "AIoT", "Backend"]
-        self.motto     = "맡은 역할은 끝까지 책임지고 수행한다"
+안녕하세요, **AI 모델과 백엔드를 연결하는 개발자 임정원**입니다.
 
-    def current_focus(self):
-        return "AI 모델을 실제 서비스로 연결하는 백엔드 시스템 만들기"
-```
+중앙대학교 소프트웨어학부에 재학 중이며, 이미지 임베딩 기반 유사도 검색 서비스, 비전 기반 자율주행 로봇, AIoT 시스템까지
+**문제를 해결하기 위해 직접 고민하고 구현해 온 과정**을 포트폴리오에 담아 왔습니다.
+
+새로운 기술과 환경을 빠르게 습득하는 것을 즐기고, **맡은 역할은 끝까지 책임지고 수행하는 것**을 가장 중요하게 생각합니다.
+"동작하는 프로그램"에서 멈추지 않고 **설계를 설명할 수 있는 코드**를 만드는 것이 목표입니다.
 
 - 🎓 **중앙대학교 소프트웨어학부** 재학 (4학년 1학기 수료)
 - 🚀 **SKT FLY AI Challenger** 부트캠프 수료
-- 🔍 이미지 임베딩 기반 유사도 검색, 비전 기반 자율주행, AIoT 시스템을 직접 구현해 왔습니다
-- 🧩 "동작하는 프로그램"과 "설계를 설명할 수 있는 코드"를 동시에 만드는 것을 목표로 합니다
+- 🔍 관심 분야: Computer Vision · Vector Search · AIoT · Backend
 
 <br/>
 
@@ -103,7 +97,7 @@ class JeongwonLim:
 | | 공학페스티벌 AIoT 창의적 종합설계 | 🏅 **최우수상** |
 | 🚗 **자율주행 로봇** | 미래제품연구회 자율주행 로봇 경진대회 | 🥉 **장려상 (3등)** |
 | 💻 **해커톤** | 대학연합 ASCII-THON 해커톤 (아주·인하·시립·중앙) | 🥇 **1등** |
-| | 매일경제 × Anthropic AI 해커톤 | 🎖️ 참가 |
+| | 매일경제 × Anthropic AI 해커톤 | 🥇 **1등** |
 
 <br/>
 
