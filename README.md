@@ -21,7 +21,7 @@ FastAPI와 PostgreSQL·pgvector 기반의 백엔드, RAG 파이프라인, 수어
 **팀 프로젝트에서 결과를 끝까지 만들어 낸 경험**이 가장 큰 자산이라고 생각합니다.
 새로운 기술과 환경을 빠르게 익히고, "동작하는 프로그램"에서 멈추지 않고 **설계를 설명할 수 있는 코드**를 만드는 것이 목표입니다.
 
-- **중앙대학교 소프트웨어학부** 재학 (4학년 1학기 수료)
+- **중앙대학교 소프트웨어학부** 재학
 - **SKT FLY AI Challenger 8기** 수료
 - 관심 분야: Backend · RAG / Vector Search · Computer Vision · AIoT
 
