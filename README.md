@@ -236,7 +236,7 @@ CAU 다학제 캡스톤 · 🥇 **총장상 (1등)** · 예선 아이디어 우�
 <div align="center">
 
 <img src="https://github-readme-stats-seven-blue-66.vercel.app/api?username=garden0324&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER" height="165" alt="stats"/>
-<img src="https://github-readme-stats-seven-blue-66.vercel.app/api/top-langs/?username=garden0324&layout=compact&theme=tokyonight&hide_border=true&size_weight=0.5&count_weight=0.5" height="165" alt="languages"/>
+<img src="https://github-readme-stats-seven-blue-66.vercel.app/api/top-langs/?username=garden0324&layout=compact&theme=tokyonight&hide_border=true&size_weight=0.5&count_weight=0.5&cache_seconds=1800&v=2" height="165" alt="languages"/>
 
 <br/><br/>
 
