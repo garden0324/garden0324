@@ -9,7 +9,7 @@
 
 <br/>
 
-## 🧑🏻‍💻 About Me
+## About Me
 
 안녕하세요, **AI 모델과 백엔드를 연결하는 개발자 임정원**입니다.
 
@@ -19,13 +19,13 @@
 새로운 기술과 환경을 빠르게 습득하는 것을 즐기고, **맡은 역할은 끝까지 책임지고 수행하는 것**을 가장 중요하게 생각합니다.
 "동작하는 프로그램"에서 멈추지 않고 **설계를 설명할 수 있는 코드**를 만드는 것이 목표입니다.
 
-- 🎓 **중앙대학교 소프트웨어학부** 재학 (4학년 1학기 수료)
-- 🚀 **SKT FLY AI Challenger** 부트캠프 수료
-- 🔍 관심 분야: Computer Vision · Vector Search · AIoT · Backend
+- **중앙대학교 소프트웨어학부** 재학 (4학년 1학기 수료)
+- **SKT FLY AI Challenger** 부트캠프 수료
+- 관심 분야: Computer Vision · Vector Search · AIoT · Backend
 
 <br/>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -71,20 +71,20 @@
 
 <br/>
 
-## 📂 Projects
+## Projects
 
 | 프로젝트 | 기간 | 설명 | 기술 | 저장소 |
 |---|---|---|---|---|
-| 🤟 **MkTone – AI 수어 뉴스 서비스** | 2026.03 | 뉴스 기사를 Claude로 수어 문체로 변환하고 3D 아바타가 수어로 재생. AI Hub 데이터셋 파싱, 한국수어 어순 변환, 키포인트 시퀀스 생성 담당 | Python · Claude API · Three.js | [mktone](https://github.com/mktone) |
-| 🦺 **똑띠 (TTokTTi) – 작업자 안전 모니터링** | 2026 | 현장 작업자의 안전을 위한 AI 기반 실시간 모니터링 플랫폼 (SKT FLY AI Challenger 8기) | Python · Docker · Android | [WOO-SU/TTokTTi](https://github.com/WOO-SU/TTokTTi) |
-| 🤟 **Signmate – 한국어·한국수어 번역** | 진행 중 | 한국어를 한국수어 글로스로 번역하고 아바타로 표현하는 서비스. AI 모델·에이전트·앱·서버 통합 | Python · Java · TypeScript | [sign-mate](https://github.com/sign-mate) |
-| 📚 **EduFlow – AI 리터러시 교육 플랫폼** | 2026.06 ~ 09 | 중·고등학생 대상 AI 리터러시 교육 플랫폼. 과제 출제·제출·AI 채점 API와 RAG 기반 질의응답 백엔드 담당 | FastAPI · PostgreSQL · pgvector · Langflow | [eduflow-team](https://github.com/eduflow-team) |
-| ♿ **배리어프리 키오스크** | 2025.06 ~ 12 | 점자 입력 + TTS 음성 안내 + 물리 버튼으로 시각장애인이 혼자 사용할 수 있는 키오스크 | Raspberry Pi · Arduino · WebSocket | |
-| 🚗 **자율주행 로봇 경진대회** | 2025.06 ~ 08 | YOLO + OpenCV로 객체를 인식하고 장애물 회피 주행을 수행하는 비전 기반 자율주행 로봇 | YOLO · OpenCV · PWM 제어 | |
-| 💻 **ASCII-THON 해커톤** | 2025 | 아주·인하·시립·중앙 대학연합 해커톤 출품작, FastAPI 백엔드 담당 | FastAPI · TypeScript | [ASCII-CAU](https://github.com/ASCII-CAU) |
+| **Signmate – 한국어·한국수어 번역** | 2026.08 ~ 진행 중 | 한국어를 한국수어 글로스로 번역하고 아바타로 표현하는 서비스. AI 모델·에이전트·앱·서버 통합 | Python · Java · TypeScript | [sign-mate](https://github.com/sign-mate) |
+| **EduFlow – AI 리터러시 교육 플랫폼** | 2026.06 ~ 09 | 중·고등학생 대상 AI 리터러시 교육 플랫폼. 과제 출제·제출·AI 채점 API와 RAG 기반 질의응답 백엔드 담당 | FastAPI · PostgreSQL · pgvector · Langflow | [eduflow-team](https://github.com/eduflow-team) |
+| **MkTone – AI 수어 뉴스 서비스** | 2026.03 | 뉴스 기사를 Claude로 수어 문체로 변환하고 3D 아바타가 수어로 재생. AI Hub 데이터셋 파싱, 한국수어 어순 변환, 키포인트 시퀀스 생성 담당 | Python · Claude API · Three.js | [mktone](https://github.com/mktone) |
+| **똑띠 (TTokTTi) – 작업자 안전 모니터링** | 2026.01 ~ 03 | 현장 작업자의 안전을 위한 AI 기반 실시간 모니터링 플랫폼 (SKT FLY AI Challenger 8기) | Python · Docker · Android | [WOO-SU/TTokTTi](https://github.com/WOO-SU/TTokTTi) |
+| **ASCII-THON 해커톤** | 2026.01 ~ 02 | 아주·인하·시립·중앙 대학연합 해커톤 출품작, FastAPI 백엔드 담당 | FastAPI · TypeScript | [ASCII-CAU](https://github.com/ASCII-CAU) |
+| **배리어프리 키오스크** | 2025.06 ~ 12 | 점자 입력 + TTS 음성 안내 + 물리 버튼으로 시각장애인이 혼자 사용할 수 있는 키오스크 | Raspberry Pi · Arduino · WebSocket | |
+| **자율주행 로봇 경진대회** | 2025.06 ~ 08 | YOLO + OpenCV로 객체를 인식하고 장애물 회피 주행을 수행하는 비전 기반 자율주행 로봇 | YOLO · OpenCV · PWM 제어 | |
 
 <details>
-<summary><b>🗂️ 그 외 팀 프로젝트 조직</b></summary>
+<summary><b>그 외 팀 프로젝트 조직</b></summary>
 <br/>
 
 | 조직 | 프로젝트 |
@@ -98,30 +98,30 @@
 
 <br/>
 
-## 🏆 Awards
+## Awards
 
 | 프로젝트 | 대회 | 수상 |
 |---|---|---|
-| 🤟 **MkTone** | 매일경제 × Anthropic AI 해커톤 | 🥇 **대상 (1등)** &nbsp; [📰 기사](https://www.mk.co.kr/news/it/11994056) · [📺 MBN 뉴스](https://www.youtube.com/watch?v=Q4g1D8d1sKU) |
-| 💻 **ASCII-THON** | 대학연합 ASCII-THON 해커톤 (아주·인하·시립·중앙) | 🥇 **1등** |
-| ♿ **배리어프리 키오스크** | CAU 다학제 캡스톤 본선 | 🥇 **총장상 (1등)** |
-| | CAU 다학제 캡스톤 예선 | 🏅 **아이디어 우수상** |
-| | 공학페스티벌 AIoT 창의적 종합설계 | 🏅 **최우수상** |
-| 🚗 **자율주행 로봇** | 미래제품연구회 자율주행 로봇 경진대회 | 🥉 **장려상 (3등)** |
+| **MkTone** | 매일경제 × Anthropic AI 해커톤 | **대상 (1등)** [기사](https://www.mk.co.kr/news/it/11994056) · [MBN 뉴스](https://www.youtube.com/watch?v=Q4g1D8d1sKU) |
+| **ASCII-THON** | 대학연합 ASCII-THON 해커톤 (아주·인하·시립·중앙) | **1등** |
+| **배리어프리 키오스크** | CAU 다학제 캡스톤 본선 | **총장상 (1등)** |
+| | CAU 다학제 캡스톤 예선 | **아이디어 우수상** |
+| | 공학페스티벌 AIoT 창의적 종합설계 | **최우수상** |
+| **자율주행 로봇** | 미래제품연구회 자율주행 로봇 경진대회 | **장려상 (3등)** |
 
 <br/>
 
-## 📜 Certifications & Courses
+## Certifications & Courses
 
 | 구분 | 내용 |
 |---|---|
-| 🎓 수료 | **SKT FLY AI Challenger** 부트캠프 |
-| 🎓 수료 | **ICT 이노베이션스퀘어** 교육과정 |
-| 📄 자격증 | **ADsP** (데이터분석 준전문가) |
+| 수료 | **SKT FLY AI Challenger** 부트캠프 |
+| 수료 | **ICT 이노베이션스퀘어** 교육과정 |
+| 자격증 | **ADsP** (데이터분석 준전문가) |
 
 <br/>
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
