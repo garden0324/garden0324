@@ -58,6 +58,7 @@
 
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white)
+![NVIDIA Jetson Nano](https://img.shields.io/badge/NVIDIA%20Jetson%20Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
 **Tools**
 
