@@ -78,13 +78,10 @@
 | 🤟 **MkTone – AI 수어 뉴스 서비스** | 2026.03 | 뉴스 기사를 Claude로 수어 문체로 변환하고 3D 아바타가 수어로 재생. AI Hub 데이터셋 파싱, 한국수어 어순 변환, 키포인트 시퀀스 생성 담당 | Python · Claude API · Three.js | [mktone](https://github.com/mktone) |
 | 🦺 **똑띠 (TTokTTi) – 작업자 안전 모니터링** | 2026 | 현장 작업자의 안전을 위한 AI 기반 실시간 모니터링 플랫폼 (SKT FLY AI Challenger 8기) | Python · Docker · Android | [WOO-SU/TTokTTi](https://github.com/WOO-SU/TTokTTi) |
 | 🤟 **Signmate – 한국어·한국수어 번역** | 진행 중 | 한국어를 한국수어 글로스로 번역하고 아바타로 표현하는 서비스. AI 모델·에이전트·앱·서버 통합 | Python · Java · TypeScript | [sign-mate](https://github.com/sign-mate) |
-| 🐶 **COG – AI 반려동물 이미지 검색** | 2025.09 ~ 12 | 분실 반려동물 사진을 올리면 유사한 보호 동물을 Top-N으로 추천하는 임베딩 기반 검색 서비스 | FastAPI · PostgreSQL · pgvector · Triplet Loss | |
+| 📚 **EduFlow – AI 리터러시 교육 플랫폼** | 2026.06 ~ 09 | 중·고등학생 대상 AI 리터러시 교육 플랫폼. 과제 출제·제출·AI 채점 API와 RAG 기반 질의응답 백엔드 담당 | FastAPI · PostgreSQL · pgvector · Langflow | [eduflow-team](https://github.com/eduflow-team) |
 | ♿ **배리어프리 키오스크** | 2025.06 ~ 12 | 점자 입력 + TTS 음성 안내 + 물리 버튼으로 시각장애인이 혼자 사용할 수 있는 키오스크 | Raspberry Pi · Arduino · WebSocket | |
-| 🌬️ **SmartAirBot – 자율주행 공기청정기** | 2025.09 ~ 12 | 방마다 설치된 센서 노드가 PM2.5를 측정하고, 가장 오염된 방으로 스스로 이동해 정화하는 AIoT 로봇 | Raspberry Pi · Socket · 센서 제어 | [SmartAirBot](https://github.com/SmartAirBot) |
 | 🚗 **자율주행 로봇 경진대회** | 2025.06 ~ 08 | YOLO + OpenCV로 객체를 인식하고 장애물 회피 주행을 수행하는 비전 기반 자율주행 로봇 | YOLO · OpenCV · PWM 제어 | |
-| 🤖 **LG Aimers 시계열 수요 예측** | 2025.07 ~ 08 | LightGBM + CatBoost 가중 블렌딩 앙상블로 수요 예측, 상위 19% (152/817) | LightGBM · CatBoost · Huber Loss | |
 | 💻 **ASCII-THON 해커톤** | 2025 | 아주·인하·시립·중앙 대학연합 해커톤 출품작, FastAPI 백엔드 담당 | FastAPI · TypeScript | [ASCII-CAU](https://github.com/ASCII-CAU) |
-| 🎲 **객체지향 윷놀이 게임** | 2025.03 ~ 06 | MVC + Builder 패턴으로 보드 확장과 UI 교체(Swing → JavaFX)가 로직 수정 없이 가능한 구조 | Java · JavaFX · JUnit | [YutNoriCAU](https://github.com/YutNoriCAU) |
 
 <details>
 <summary><b>🗂️ 그 외 팀 프로젝트 조직</b></summary>
@@ -93,7 +90,6 @@
 | 조직 | 프로젝트 |
 |---|---|
 | [CAU-SW-Engineering](https://github.com/CAU-SW-Engineering) | ML Judge – 백준 스타일 머신러닝 코드 채점 플랫폼 (Spring Boot + FastAPI + Docker 샌드박스) |
-| [eduflow-team](https://github.com/eduflow-team) | EduFlow – 중·고등학생 AI 리터러시 교육 플랫폼 (채점 API + RAG) |
 | [sampossnu](https://github.com/sampossnu) | InsureAI – AI 기반 보험 심사 시스템 (제4회 전국 대학(원)생 리스크 관리 경진대회) |
 | [drimsyton](https://github.com/drimsyton) | 전력·설비 데이터 분석 플랫폼 (전처리 → 예측 → RAG 챗봇) |
 | [WOO-SU](https://github.com/WOO-SU) | mail-hunter (멀티 에이전트 협업 메일 서비스), blog-project 등 토이 프로젝트 |
