@@ -2,11 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:06B6D4&height=180&section=header&text=Jeongwon%20Lim&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=45" width="100%"/>
 
-<img src="./assets/profile.jpg" width="180" style="border-radius:50%" alt="임정원 프로필 사진"/>
-
-<br/><br/>
-
-[![Notion](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white)](https://app.notion.com/p/2d5006c42d658059b5dafbfc88a46f67)
 [![Gmail](https://img.shields.io/badge/doole0009@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:doole0009@gmail.com)
 [![GitHub](https://img.shields.io/badge/garden0324-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/garden0324)
 
