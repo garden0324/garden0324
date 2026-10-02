@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:06B6D4&height=200&section=header&text=Jeongwon%20Lim&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20Backend%20%2F%20IoT%20Developer&descAlignY=58&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:06B6D4&height=180&section=header&text=Jeongwon%20Lim&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=45" width="100%"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=4F46E5&center=true&vCenter=true&width=600&lines=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%2C+%EA%B0%9C%EB%B0%9C%EC%9E%90+%EC%9E%84%EC%A0%95%EC%9B%90%EC%9E%85%EB%8B%88%EB%8B%A4+%F0%9F%91%8B;AI+%EB%AA%A8%EB%8D%B8%EA%B3%BC+%EB%B0%B1%EC%97%94%EB%93%9C%EB%A5%BC+%EC%97%B0%EA%B2%B0%ED%95%A9%EB%8B%88%EB%8B%A4;%EB%A7%A1%EC%9D%80+%EC%97%AD%ED%95%A0%EC%9D%80+%EB%81%9D%EA%B9%8C%EC%A7%80+%EC%B1%85%EC%9E%84%EC%A7%91%EB%8B%88%EB%8B%A4" alt="Typing SVG" /></a>
+<img src="./assets/profile.jpg" width="180" style="border-radius:50%" alt="임정원 프로필 사진"/>
 
-<br/>
+<br/><br/>
 
 [![Notion](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white)](https://app.notion.com/p/2d5006c42d658059b5dafbfc88a46f67)
 [![Gmail](https://img.shields.io/badge/doole0009@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:doole0009@gmail.com)
@@ -77,14 +77,32 @@
 
 ## 📂 Projects
 
-| 프로젝트 | 기간 | 설명 | 기술 |
-|---|---|---|---|
-| 🐶 **AI 반려동물 이미지 검색 (COG)** | 2025.09 ~ 12 | 분실 반려동물 사진을 올리면 유사한 보호 동물을 Top-N으로 추천하는 임베딩 기반 검색 서비스 | FastAPI · PostgreSQL · pgvector · Triplet Loss |
-| ♿ **배리어프리 키오스크** | 2025.06 ~ 12 | 점자 입력 + TTS 음성 안내 + 물리 버튼으로 시각장애인이 혼자 사용할 수 있는 키오스크 | Raspberry Pi · Arduino · WebSocket |
-| 🚗 **자율주행 로봇 경진대회** | 2025.06 ~ 08 | YOLO + OpenCV로 객체를 인식하고 장애물 회피 주행을 수행하는 비전 기반 자율주행 로봇 | YOLO · OpenCV · PWM 제어 |
-| 🤖 **LG Aimers 시계열 수요 예측** | 2025.07 ~ 08 | LightGBM + CatBoost 가중 블렌딩 앙상블로 수요 예측, 상위 19% (152/817) | LightGBM · CatBoost · Huber Loss |
-| 🌬️ **자율주행 공기청정기 (AIoT)** | 2025.09 ~ 12 | 방마다 설치된 센서 노드가 PM2.5를 측정하고, 가장 오염된 방으로 스스로 이동해 정화하는 로봇 | Raspberry Pi · Socket · 센서 제어 |
-| 🎲 **객체지향 윷놀이 게임** | 2025.03 ~ 06 | MVC + Builder 패턴으로 보드 확장과 UI 교체(Swing → JavaFX)가 로직 수정 없이 가능한 구조 | Java · JavaFX · JUnit |
+| 프로젝트 | 기간 | 설명 | 기술 | 저장소 |
+|---|---|---|---|---|
+| 🤟 **MkTone – AI 수어 뉴스 서비스** | 2026.03 | 뉴스 기사를 Claude로 수어 문체로 변환하고 3D 아바타가 수어로 재생. AI Hub 데이터셋 파싱, 한국수어 어순 변환, 키포인트 시퀀스 생성 담당 | Python · Claude API · Three.js | [mktone](https://github.com/mktone) |
+| 🦺 **똑띠 (TTokTTi) – 작업자 안전 모니터링** | 2026 | 현장 작업자의 안전을 위한 AI 기반 실시간 모니터링 플랫폼 (SKT FLY AI Challenger 8기) | Python · Docker · Android | [WOO-SU/TTokTTi](https://github.com/WOO-SU/TTokTTi) |
+| 🤟 **Signmate – 한국어·한국수어 번역** | 진행 중 | 한국어를 한국수어 글로스로 번역하고 아바타로 표현하는 서비스. AI 모델·에이전트·앱·서버 통합 | Python · Java · TypeScript | [sign-mate](https://github.com/sign-mate) |
+| 🐶 **COG – AI 반려동물 이미지 검색** | 2025.09 ~ 12 | 분실 반려동물 사진을 올리면 유사한 보호 동물을 Top-N으로 추천하는 임베딩 기반 검색 서비스 | FastAPI · PostgreSQL · pgvector · Triplet Loss | |
+| ♿ **배리어프리 키오스크** | 2025.06 ~ 12 | 점자 입력 + TTS 음성 안내 + 물리 버튼으로 시각장애인이 혼자 사용할 수 있는 키오스크 | Raspberry Pi · Arduino · WebSocket | |
+| 🌬️ **SmartAirBot – 자율주행 공기청정기** | 2025.09 ~ 12 | 방마다 설치된 센서 노드가 PM2.5를 측정하고, 가장 오염된 방으로 스스로 이동해 정화하는 AIoT 로봇 | Raspberry Pi · Socket · 센서 제어 | [SmartAirBot](https://github.com/SmartAirBot) |
+| 🚗 **자율주행 로봇 경진대회** | 2025.06 ~ 08 | YOLO + OpenCV로 객체를 인식하고 장애물 회피 주행을 수행하는 비전 기반 자율주행 로봇 | YOLO · OpenCV · PWM 제어 | |
+| 🤖 **LG Aimers 시계열 수요 예측** | 2025.07 ~ 08 | LightGBM + CatBoost 가중 블렌딩 앙상블로 수요 예측, 상위 19% (152/817) | LightGBM · CatBoost · Huber Loss | |
+| 💻 **ASCII-THON 해커톤** | 2025 | 아주·인하·시립·중앙 대학연합 해커톤 출품작, FastAPI 백엔드 담당 | FastAPI · TypeScript | [ASCII-CAU](https://github.com/ASCII-CAU) |
+| 🎲 **객체지향 윷놀이 게임** | 2025.03 ~ 06 | MVC + Builder 패턴으로 보드 확장과 UI 교체(Swing → JavaFX)가 로직 수정 없이 가능한 구조 | Java · JavaFX · JUnit | [YutNoriCAU](https://github.com/YutNoriCAU) |
+
+<details>
+<summary><b>🗂️ 그 외 팀 프로젝트 조직</b></summary>
+<br/>
+
+| 조직 | 프로젝트 |
+|---|---|
+| [CAU-SW-Engineering](https://github.com/CAU-SW-Engineering) | ML Judge – 백준 스타일 머신러닝 코드 채점 플랫폼 (Spring Boot + FastAPI + Docker 샌드박스) |
+| [eduflow-team](https://github.com/eduflow-team) | EduFlow – 중·고등학생 AI 리터러시 교육 플랫폼 (채점 API + RAG) |
+| [sampossnu](https://github.com/sampossnu) | InsureAI – AI 기반 보험 심사 시스템 (제4회 전국 대학(원)생 리스크 관리 경진대회) |
+| [drimsyton](https://github.com/drimsyton) | 전력·설비 데이터 분석 플랫폼 (전처리 → 예측 → RAG 챗봇) |
+| [WOO-SU](https://github.com/WOO-SU) | mail-hunter (멀티 에이전트 협업 메일 서비스), blog-project 등 토이 프로젝트 |
+
+</details>
 
 <br/>
 
@@ -92,12 +110,12 @@
 
 | 프로젝트 | 대회 | 수상 |
 |---|---|---|
+| 🤟 **MkTone** | 매일경제 × Anthropic AI 해커톤 | 🥇 **대상 (1등)** &nbsp; [📰 기사](https://www.mk.co.kr/news/it/11994056) · [📺 MBN 뉴스](https://www.youtube.com/watch?v=Q4g1D8d1sKU) |
+| 💻 **ASCII-THON** | 대학연합 ASCII-THON 해커톤 (아주·인하·시립·중앙) | 🥇 **1등** |
 | ♿ **배리어프리 키오스크** | CAU 다학제 캡스톤 본선 | 🥇 **총장상 (1등)** |
 | | CAU 다학제 캡스톤 예선 | 🏅 **아이디어 우수상** |
 | | 공학페스티벌 AIoT 창의적 종합설계 | 🏅 **최우수상** |
 | 🚗 **자율주행 로봇** | 미래제품연구회 자율주행 로봇 경진대회 | 🥉 **장려상 (3등)** |
-| 💻 **해커톤** | 대학연합 ASCII-THON 해커톤 (아주·인하·시립·중앙) | 🥇 **1등** |
-| | 매일경제 × Anthropic AI 해커톤 | 🥇 **1등** |
 
 <br/>
 
