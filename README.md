@@ -94,15 +94,16 @@ FastAPI와 PostgreSQL·pgvector 기반의 백엔드, RAG 파이프라인, 수어
 <summary><b>EduFlow | 중·고등학생 AI 리터러시 교육 플랫폼</b> &nbsp;·&nbsp; 2026.06 ~ 2026.09</summary>
 <br/>
 
-교사가 과제를 출제하고 학생이 제출하면 AI가 채점하고, RAG 기반으로 질의응답을 제공하는 교육 플랫폼
+교사가 단계별 AI 리터러시 과제를 출제하고, 학생 제출물을 Langflow 기반 AI 워크플로로 채점하는 교육 플랫폼
 
-- **역할:** 백엔드 개발
-- **Tech Stack:** `Python`, `FastAPI`, `PostgreSQL`, `pgvector`, `Langflow`, `Docker`
+- **역할:** AI 워크플로(Langflow) 설계 · 채점 API 개발
+- **Tech Stack:** `Python`, `FastAPI`, `Langflow`, `PostgreSQL`, `Docker`
 - **주요 내용:**
-  - 교사·학생 인증, 과제 출제·제출·채점, 학급 대시보드 API 구현
-  - pgvector 기반 RAG 파이프라인과 Langflow 워크플로 연동
-  - Docker Compose · Alembic 마이그레이션으로 배포 환경 구성
-- **Repository:** [eduflow-team/backend](https://github.com/eduflow-team/backend) · [eduflow-team/ai](https://github.com/eduflow-team/ai)
+  - Stage1 Langflow 워크플로를 백엔드와 실연동하고 노드 ID를 환경변수로 분리
+  - Stage4 "프롬프트 인젝션 보안 실습" Langflow 플로우와 실습 API · 힌트 · 채점 로직 구현
+  - 세트 보고서 채점과 리터러시 축 혼합 집계, 골든셋 검증 파이프라인 구현
+  - 프롬프트 · 페르소나 템플릿과 브랜치 전략 문서화로 팀 작업 기준 정리
+- **Repository:** [eduflow-team/ai](https://github.com/eduflow-team/ai) · [eduflow-team/backend](https://github.com/eduflow-team/backend)
 
 </details>
 
@@ -130,13 +131,14 @@ FastAPI와 PostgreSQL·pgvector 기반의 백엔드, RAG 파이프라인, 수어
 
 SKT FLY AI Challenger 8기 팀 프로젝트
 
-현장 작업자의 안전을 위한 AI 기반 실시간 모니터링 플랫폼. 웹 대시보드와 모바일 앱, 백엔드를 Docker로 통합 운영
+현장 작업자의 안전을 위한 AI 기반 실시간 모니터링 플랫폼. 현장 Jetson 장치가 보호구 착용 여부를 감지하고 관리자 웹에서 위험성을 관리
 
-- **역할:** 백엔드 · 인프라
-- **Tech Stack:** `Python`, `Docker`, `Redis`, `Android`
+- **역할:** 프론트엔드 · Jetson 연동
+- **Tech Stack:** `JavaScript`, `NVIDIA Jetson Nano`, `Python`, `Docker`
 - **주요 내용:**
-  - DB · Redis · 백엔드 · 웹 프론트를 Docker Compose로 묶어 원클릭 실행 환경 구성
-  - 관리자 웹과 작업자 모바일 앱이 공유하는 API 서버 구축
+  - 관리자 웹 UI 전반 구현과 백엔드 API 연동, 로그인 흐름 구현
+  - Jetson 장치의 안전 준수(compliance) 감지 결과를 서버와 연결하는 브리지 구현
+  - 위험성 평가 카테고리 등 도메인 화면 설계
 - **Repository:** [WOO-SU/TTokTTi](https://github.com/WOO-SU/TTokTTi)
 
 </details>
@@ -200,8 +202,8 @@ CAU 다학제 캡스톤 · 🥇 **총장상 (1등)** · 예선 아이디어 우�
 |---|---|
 | [SmartAirBot](https://github.com/SmartAirBot) | 자율주행 공기청정기 – 방마다 설치된 센서 노드가 PM2.5를 측정하고 가장 오염된 방으로 이동해 정화하는 AIoT 로봇 |
 | [CAU-SW-Engineering](https://github.com/CAU-SW-Engineering) | ML Judge – 백준 스타일 머신러닝 코드 채점 플랫폼 (Spring Boot + FastAPI + Docker 샌드박스) |
-| [sampossnu](https://github.com/sampossnu) | InsureAI – AI 기반 보험 심사 시스템 (제4회 전국 대학(원)생 리스크 관리 경진대회) |
-| [drimsyton](https://github.com/drimsyton) | 전력·설비 데이터 분석 플랫폼 (전처리 → 예측 → RAG 챗봇) |
+| [sampossnu](https://github.com/sampossnu) | InsureAI – AI 기반 보험 심사 시스템 (제4회 전국 대학(원)생 리스크 관리 경진대회) · RAG · 챗봇 파트 담당 |
+| [drimsyton](https://github.com/drimsyton) | 전력·설비 데이터 분석 플랫폼 · Prophet + LSTM 시계열 예측 파이프라인 담당 |
 | [WOO-SU](https://github.com/WOO-SU) | mail-hunter (멀티 에이전트 협업 메일 서비스), blog-project 등 토이 프로젝트 |
 
 </details>
