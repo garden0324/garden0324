@@ -76,7 +76,7 @@ FastAPI와 PostgreSQL·pgvector 기반의 백엔드, RAG 파이프라인, 수어
 ## Projects
 
 <details>
-<summary><b>Signmate | 한국어·한국수어 번역 서비스</b> &nbsp;·&nbsp; 2026.08 ~ 진행 중</summary>
+<summary><b>Signmate | 한국어·한국수어 번역 서비스</b> &nbsp;·&nbsp; 2026.03 ~ 진행 중</summary>
 <br/>
 
 경기청년 갭이어 (경기도미래세대재단 주최) · 🏆 **경기도지사상**
